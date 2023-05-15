@@ -1,0 +1,31 @@
+ADD “Cars”
+ADD “Cars” “Sedan”
+ADD “Cars” “SUV”
+ADD “Cars” “Hatchback”
+ADD “Cars” “Coupe”
+ADD “Cars” “Wagon”
+ADD “House”
+ADD “House” “Cottage”
+ADD “House” “Villa”
+ADD “Food”
+ADD “Cars” “Sedan” “Petrol”
+ADD “Cars” “Sedan” “Electric”
+ADD “Cars” “Sedan” “Hybrid”
+ADD “Cars” “Sedan” “Hybrid” “Toyota” 
+ADD “Cars” “Sedan” “Hybrid” “Toyota” “Camry”
+ADD “Cars” “Sedan” “Hybrid” “Toyota” “Camry” “Ascent” 
+ADD “Cars” “Sedan” “Hybrid” “Toyota” “Camry” “AscentSport”
+ADD “Cars” “Sedan” “Hybrid” “Toyota” “Camry” “SX”  
+ADD “Cars” “Sedan” “Hybrid” “Toyota” “Camry” “SL”
+ADD “Cars” “Sedan” “Hybrid” “Toyota” “Camry” “SY”   
+ADD “Cars” “Sedan” “Electric” “Tesla” 
+ADD “Cars” “Sedan” “Electric” “Tesla” “Model3”
+ADD “Cars” “Sedan” “Electric” “Tesla” “ModelS”
+ADD “Cars” “Sedan” “Petrol” “BMW”
+RENAME “Cars” “Sedan” “Hybrid” “Toyota” “Camry” “SY” AS “SW”
+MOVE “Cars” “Sedan” “Hybrid” “Toyota” “Camry” “SW” UP 2
+MOVE “Cars” “Sedan” “Hybrid” “Toyota” “Camry” “AscentSport” UP 1
+MOVE “Cars” “Sedan” “Hybrid” “Toyota” “Camry” “Ascent” DOWN 3
+MOVE “Cars” “Sedan” “Electric” “Tesla” “ModelS” UP 1
+DELETE “Cars” “Sedan” “Hybrid” “Toyota” “Camry” “SW” 
+DELETE “Cars” “Hatchback”
